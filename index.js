@@ -15,7 +15,7 @@ const two = 2
   return n + two
 }
 
-var funkyFunction('Funky!') = function() {
+var funkyFunction = function() {
   return function() {
     return "FUNKY!"
   }
@@ -23,4 +23,6 @@ var funkyFunction('Funky!') = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction()
+var theFunk = funkyFunction(){
+  return "FUNKY!"
+}
